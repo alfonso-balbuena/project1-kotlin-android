@@ -1,4 +1,4 @@
-# project1-kotlin-android
+# Proyect 1 kotlin android
 First proyect for the Android kotlin nanodegree
 
 # The Shoe Store
