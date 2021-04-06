@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">ShoeStore</string>
+    <string name="app_name">Shoe Store</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="content_login_image">Image for login screen</string>
+    <string name="new_account">New account</string>
+    <string name="welcome_text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper turpis massa, nec feugiat orci pharetra interdum. Donec tellus tortor, suscipit et vulputate et, maximus eu velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam tincidunt rutrum diam, et vehicula odio tincidunt nec. Proin placerat lacus at risus facilisis semper. Nunc ac finibus mauris. Suspendisse potenti. Sed vestibulum.</string>
+    <string name="welcome_text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id velit consequat, tempor sem in, placerat quam. Pellentesque ut lorem sed nibh porttitor tincidunt auctor elementum metus. Duis commodo, ipsum vitae dignissim vulputate, lorem felis bibendum augue, id vestibulum mi ligula in sapien. Nunc sit amet cursus magna, id tincidunt risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas accumsan.</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_text1">The next page will show you a list of shoes with their different attributes.</string>
+    <string name="instructions_text2">If you want to add a new shoe, you can do it clicking the floating button and then adding the information for the new shoe and finally, click on the save button in order to store the new shoe and see it in the list.</string>
+    <string name="shoe_list">Shoe list</string>
+    <string name="text_item">- %1$s</string>
+    <string name="text_detail_item">    %1$s \n    %2$s \n    Size: %3$f</string>
+    <string name="content_description_fab">Floating action button to navigate to detail screen</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="company">Company</string>
+    <string name="size">Size</string>
+    <string name="description">Description</string>
+    <string name="shoe_detail">Shoe detail</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome</string>
 </resources>

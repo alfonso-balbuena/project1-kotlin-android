@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".login.LoginFragment">
+
+        <ImageView
+            android:id="@+id/imageLogin"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_image_login"
+            android:contentDescription="@string/content_login_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground"
+            app:tint="@color/colorPrimaryDark" />
+
+        <EditText
+            android:layout_marginTop="@dimen/min_margin"
+            android:id="@+id/editUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/user"
+            android:autofillHints="@string/user"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@id/editPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageLogin" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="@dimen/min_margin"
+            app:layout_constraintBottom_toTopOf="@id/buttonNewAccount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editUser"
+            android:autofillHints="@string/password" />
+
+        <TextView
+            android:id="@+id/buttonNewAccount"
+            style="@style/second_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_account"
+            app:layout_constraintBottom_toTopOf="@id/buttonLogin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editPassword" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            style="@style/main_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/min_margin"
+            android:text="@string/login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonNewAccount" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
