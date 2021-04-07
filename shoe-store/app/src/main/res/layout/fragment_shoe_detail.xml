@@ -3,6 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- I Picked a constraintlayout because the view is more complex than just have all the
+      views sort vertically or horizontally. In this way I reduce the complexity of the
+      tree view -->
+
     <data>
         <import type="com.udacity.shoestore.models.Converter" />
         <variable

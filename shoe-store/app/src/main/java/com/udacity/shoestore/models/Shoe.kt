@@ -24,6 +24,6 @@ object Converter {
     fun stringToDouble(
         value: String
     ): Double {
-        return value.toDouble()
+        return if (value.isEmpty())  0.0 else value.toDouble()
     }
 }
